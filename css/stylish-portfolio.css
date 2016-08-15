@@ -28,6 +28,36 @@ footer {
     font-size:2.3em;
     color:#767677;
 }
+.eachVideoPlayBlock{
+    margin-top:80px;
+    margin-bottom:30px;
+    color:#fff;
+}
+.eachVideoPlayBlock h4{
+    line-height: 1.5em;
+}
+
+.eachVideoSeriesBlock{
+    color:#767677;
+
+}
+.eachVideoPlayBlock h4{
+    line-height: 1.1em;
+}
+
+.SeriesVideo{
+    padding:0px;
+}
+
+.videoSeriesRow{
+    margin:40px auto;
+    background:#fff;
+}
+
+.videoSeries {
+    background: #D3D3D3;
+}
+
 
 .navbar {
     background-color: #b40431;
@@ -46,16 +76,33 @@ a {
     text-decoration: none;
 }
 
-.topSection {
-    margin:100px auto;
-}
+
 .searchBar {
     padding-top: 10px;
 }
+.searchBarSub {
+    float:left;
+    max-width:500px;
+    padding: 13px 20px 15px 20px;
+}
 
+.stylish-input-group .input-group-addonSub{
+    background: #b40431 !important; 
+    color:#fff;
+    
+}
+.stylish-input-group .form-controlSub{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    width:300px;
+    padding:3px 12px;
+    font-size:12px;
+}
 .stylish-input-group .input-group-addon{
     background: #b40431 !important; 
     color:#fff;
+   
 }
 .stylish-input-group .form-control{
     border-right:0; 
@@ -190,7 +237,7 @@ hr.small {
 
 /* Header */
 
-.header {
+.topSection{
     display: table;
     position: relative;
     width: 100%;
@@ -200,6 +247,22 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding:0px 6%;
+}
+
+.topSectionSub{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: #B40431;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding:0px 6%;
+
+
 }
 
 /* About */
@@ -331,4 +394,25 @@ footer {
 }
 .text-muted{
     color:#fff;
+}
+
+.videoBlock {
+    margin-top:80px;
+}
+
+.dropdown {
+    position:relative;
+    float:left;
+    top:15px;
+    color:#fff;
+     border-left: 1px solid #fff;
+}
+
+.dropdown p {
+    margin:0px;
+    padding-left:10px;
+}
+.dropdown-menu>li>a {
+    color:#B40431;
+
 }
